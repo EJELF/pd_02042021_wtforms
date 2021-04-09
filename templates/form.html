@@ -7,7 +7,6 @@
 <body>
     <form action="" method="post">
         {{ form.csrf_token }}
-
         {{form.username.label}} {{form.username}}<br>
 
         {% if form.username.errors %}
