@@ -8,4 +8,4 @@ class User:
 
     def add_user(self):
         User.users_list.append(self)
-
+        return User.users_list
